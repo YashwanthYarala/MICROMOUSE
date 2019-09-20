@@ -6,6 +6,7 @@ void setup() {
      Serial.begin(9600);
      pinMode(trigpin,OUTPUT);
      pinMode(echopin,INPUT);
+     //declaration of pins is done
      
 }
 
