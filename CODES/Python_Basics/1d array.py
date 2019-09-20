@@ -18,6 +18,11 @@ marks = {"12","13","15","18","21","32","12"}  #it doesnt consider about repititi
 print(marks)
 #dictionary
 #here we use keys and values instead of word and meaning respectively
+classmates = {'tony':'good guy','stark':'intelligent'}
+print(classmates['tony'])
+for k,v in classmates.items():  #for looping we have to itterate both key and value
+    print(k + v)
+
 
 
 
