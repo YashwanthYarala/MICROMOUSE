@@ -6,7 +6,7 @@ void setup() {
      Serial.begin(9600);
      pinMode(trigpin,OUTPUT);
      pinMode(echopin,INPUT);
-     //declaration of pins is done
+     //declaration of pins is done 
      
 }
 
@@ -18,6 +18,6 @@ void loop() {
    digitalWrite(trigpin,LOW);
    duration = pulseIn(echopin,HIGH);
    distance = (duration/2)/29.1;
-   Serial.println(distance);
+   Serial.println(distance);  //prints the distnce
    delay(10);
 }
