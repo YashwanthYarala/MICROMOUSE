@@ -1,5 +1,5 @@
- int trigpin = 34;
-     int echopin = 30;
+ int trigpin = 5;
+     int echopin = 4;
 void setup() {
   // put your setup code here, to run once:
     
@@ -19,5 +19,5 @@ void loop() {
    duration = pulseIn(echopin,HIGH);
    distance = (duration/2)/29.1;
    Serial.println(distance);  //prints the distnce
-   delay(10);
+   //delay(10);
 }
