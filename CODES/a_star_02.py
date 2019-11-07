@@ -35,6 +35,25 @@ while(a!=4 and b!=4):
 
             else:
                 a =a-1
+        elif(a==7 and b!=7):
+            # it has restriction to move in right direction
+            #checking down condition
+            if(maze[a][b+1]==1):
+                g = 1
+                p = abs(a-h)+abs(b+1-k)
+                t_d = p+g
+            else:
+                #check for left
+                if(maze[a-1][b]==1):
+                    g = 1
+                    p = abs(a-1-h)+abs(b-k)
+                    t_l = g+p
+                else:
+
+            if()
+
+
+
 
 
 
