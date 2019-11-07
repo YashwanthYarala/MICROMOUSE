@@ -6,4 +6,3 @@ print(arr1.ndim)
 print(arr1.size)
 arr2 = arr1.flatten()
 print(arr2)
-inde
