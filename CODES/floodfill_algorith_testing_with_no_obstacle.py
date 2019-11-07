@@ -25,9 +25,9 @@ def flood_fill():
     for p_x in range(7):
         if(maze_path[p_x][p_y]>maze_path[p_x+1][p_y]):
             #if yes we move down
-            maze_potential[p_x+1][p_y]=1
+            maze_potential[p_x+1][p_y]=9
         elif(maze_path[p_x][p_y]>maze_path[p_x][p_y+1]):
-            maze_potential[p_x][p_y+1] = 1
+            maze_potential[p_x][p_y+1] = 9
             p_x = p_x-1
             p_y=p_y+1
 
