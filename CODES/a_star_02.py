@@ -43,14 +43,24 @@ while(a!=4 and b!=4):
                 p = abs(a-h)+abs(b+1-k)
                 t_d = p+g
             else:
-                #check for left
-                if(maze[a-1][b]==1):
-                    g = 1
-                    p = abs(a-1-h)+abs(b-k)
-                    t_l = g+p
+                t_d = 101
+            if(maze[a-1][b]==1):
+                g=1
+                p=abs(a-1-h)+abs(b-k)
+                t_l = g+p
+            else:
+                t_l = 100
+            n = t_d+t_l
+            if(n>180):
+                 maze[a][b]=0
+                 b=b-1
+            else:
+                if(t_l>t_d):
+                    a=a-1
                 else:
+                    b=b+1
 
-            if()
+
 
 
 
