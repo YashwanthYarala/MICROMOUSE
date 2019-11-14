@@ -1,5 +1,5 @@
- int trigpin = 5;
-     int echopin = 4;
+ int trigpin = 10;
+     int echopin = 9;
 void setup() {
   // put your setup code here, to run once:
     
