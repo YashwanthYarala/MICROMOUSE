@@ -31,7 +31,7 @@ void loop() {
          //Serial.print(d_r);
         // Serial.print("\t");
          Serial.println(d_l);
-}
+}1
 
 
 int dis(int trigpin,int echopin)
